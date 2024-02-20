@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v){
         int n1=Integer.parseInt(E1.getText().toString());
         int n2=Integer.parseInt(E2.getText().toString());
-        int n3=n1+n2;
+        int n3=n1-n2;
         E3.setText(""+n3);
     }
 }
